@@ -12,8 +12,10 @@ export default class CVFooter extends Component{
                     <Courses/>
                     <Chart/>
                 </div>
-                <p>Este Currículo foi desenvolvido através do framework Reactjs e seu código está hospedado no repositório: </p>
-                <a href=''></a>
+                <div class='lastParagraph'>
+                    <p>Este Currículo foi desenvolvido através do framework Reactjs e seu código está hospedado no repositório abaixo: </p>
+                    <a href='https://github.com/RafaeloDuarte/curriculo-rafael'>https://github.com/RafaeloDuarte/curriculo-rafael</a>
+                </div>
             </div>
         )
     }

@@ -3,3 +3,11 @@
     grid-template-columns : 3fr 1fr;
     grid-template-rows: 70vh; 
 }
+
+.lastParagraph{
+    text-align: center;
+}
+
+a{
+    color: blueviolet
+}

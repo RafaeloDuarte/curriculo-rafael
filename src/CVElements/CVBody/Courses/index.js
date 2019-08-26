@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import AcademicFormation from '../AcademicFormation';
+import AcademicFormation from '../AcademicFormation'
+import Languages from '../Languages'
 
 const XPs = [   
     'Desenvolvimento Interfaces Web com HTML5, JavaScript e JQuery – GlobalCode – 24 horas',
@@ -15,6 +16,7 @@ export default class Courses extends Component{
         return(
             <div>
                 <AcademicFormation/>
+                <Languages/>
                 <ul>
                     Cursos
                     {XPsLi}
